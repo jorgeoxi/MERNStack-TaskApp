@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "postinstall": "npm run build",
-    "start": "node node bin/www",
+    "start": "node bin/www",
     "dev": "nodemon src/index.js",
     "webpack": "webpack --mode development --watch"
   },
